@@ -1,0 +1,265 @@
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+
+    #banner_part .banner_content {
+        padding: 0px 20px;
+        width: 100%;
+    }
+
+    #banner_part .banner_content.banner_content_left {
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    #banner_part .banner_content.banner_content_left h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen {
+        height: 320px;
+        width: 320px;
+        background-image: url('../images/banner.png');
+        background-size: 100% 100%;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen>div {
+        display: none;
+    }
+
+    #players_section .player_card {
+        width: 100%;
+        margin: 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    #players_section .player_card h3 {
+        font-size: 21px;
+    }
+
+    #squad_section .sqad_card {
+        display: flex;
+        background: #20273f;
+        width: 100%;
+        margin: 0px 15px;
+        margin-bottom: 30px;
+    }
+
+    #squad_section .sqad_card {
+        flex-wrap: wrap;
+    }
+
+    #squad_section .sqad_card .left {
+        width: 100%;
+    }
+
+    #squad_section .sqad_card .left {
+        text-align: center;
+    }
+
+    #squad_section .sqad_card .left img {
+        width: 100%;
+        height:100%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    #squad_section .sqad_card .right {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #point_table .point_body .overlay {
+        flex-wrap: wrap;
+    }
+
+    #point_table .point_body .overlay .left,
+    #point_table .point_body .overlay .right {
+        width: 100%;
+    }
+
+    #point_table .point_body .overlay .left .content h4 {
+        font-size: 26px;
+    }
+
+    #footer .logo img {
+        height: 54px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 576px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+
+    #banner_part .banner_content {
+        padding: 0px 20px;
+    }
+
+    #banner_part .banner_content.banner_content_left {
+        width: 40%;
+    }
+
+    #banner_part .banner_content.banner_content_left h1 {
+        font-size: 22px;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen {
+        position: relative;
+        height: 302px;
+        width: 298px;
+        ;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen .player {
+        height: 66%;
+        width: 52%;
+        left: 75px;
+        top: 140px;
+    }
+
+    #banner_part:hover .banner_content.banner_content_right .player_screen .player {
+        left: 226px;
+        top: 140px;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen img {
+        width: 81%;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen .football {
+        top: 145px;
+        left: 52px;
+    }
+
+    #banner_part:hover .banner_content.banner_content_right .player_screen .football {
+        top: 94px;
+        transform: perspective(172px) rotateX(-6deg) rotateY(8deg) rotateZ(49deg);
+    }
+
+    #players_section .player_card {
+        width: 45.9%;
+        margin: 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    #players_section .player_card h3 {
+        font-size: 21px;
+    }
+
+    #squad_section .sqad_card {
+        display: flex;
+        background: #20273f;
+        width: 44%;
+        margin: 0px 15px;
+        margin-bottom: 30px;
+    }
+
+    #squad_section .sqad_card {
+        flex-wrap: wrap;
+    }
+
+    #squad_section .sqad_card .left {
+        width: 100%;
+    }
+
+    #squad_section .sqad_card .left {
+        text-align: center;
+    }
+
+    #squad_section .sqad_card .left img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    #squad_section .sqad_card .right {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #point_table .point_body .overlay .left .content h4 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+
+    #banner_part .banner_content {
+        padding: 0px 20px;
+    }
+
+    #banner_part .banner_content.banner_content_left {
+        width: 40%;
+    }
+
+    #banner_part .banner_content.banner_content_left h1 {
+        font-size: 30px;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen {
+        position: relative;
+        height: 394px;
+        width: 399px;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen img {
+        width: 81%;
+    }
+
+    #banner_part .banner_content.banner_content_right .player_screen .football {
+        top: 194px;
+    }
+
+    #players_section .player_card {
+        width: 30%;
+        margin: 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    #players_section .player_card h3 {
+        font-size: 21px;
+    }
+
+    #squad_section .sqad_card {
+        display: flex;
+        background: #20273f;
+        width: 46%;
+        margin: 0px 15px;
+        margin-bottom: 30px;
+    }
+
+    #squad_section .sqad_card {
+        flex-wrap: wrap;
+    }
+
+    #squad_section .sqad_card .left {
+        width: 100%;
+    }
+
+    #squad_section .sqad_card .left {
+        text-align: center;
+    }
+
+    #squad_section .sqad_card .left img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+}
+
+/* @media (min-width: 992px) {} */
